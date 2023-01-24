@@ -1,0 +1,28 @@
+GET http://localhost:8000/api/product/allProducts
+
+###
+POST http://localhost:8000/api/product/addProducts
+Content-Type: application/json
+
+{
+    "title" :"iphone 8",
+    "price":9983,
+    "description":"ok",
+    "published":true
+
+}
+
+###
+PUT http://localhost:8000/api/product/10
+
+Content-Type: application/json
+{
+    "title" :"iphone14 pro max",
+    "price":883838,
+    "description":"great phone Vro",
+    "published":true
+
+}
+
+###
+DELETE http://localhost:8000/api/product/5
